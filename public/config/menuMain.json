@@ -1,0 +1,30 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "Partes_de_maquinas_de_confeccion_puntadas_y_costuras",
+    "title": "Unidad 4. Partes de máquinas de confección, puntadas y costuras",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Partes_de_maquinas_de_confeccion_puntadas_y_costuras",
+        "title": "1. Partes de la maquinaria de confección",
+        "anchor": "11"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "Partes_de_maquinas_de_confeccion_puntadas_y_costuras",
+        "title": "2. Mantenimiento máquinas de confección",
+        "anchor": "12"
+      }   
+    ]   
+  }
+]

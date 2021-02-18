@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Mantenimiento en máquinas de confección.</title>
+        <meta meta name="description" content="Describir las piezas y mecanismos que conforman las máquinas y su funcionamiento. Identificar el tipo de puntada de cada máquina según las Normas Internacionales de Estandarización ISO 4915, así mismo los diferentes tipos de costuras bajo la norma ISO 4916. Diagnosticar fallas que afectan la calidad de la costura y establecer la importancia de mantenimientos autónomos y necesidades de capacitación. Seleccionar la solución adecuada según la falla presentada en la costura, de acuerdo con el nivel de problema presentado. Integrar la importancia del plan de mantenimiento en los objetivos de mejora continua de la empresa.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span class="text-white">Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span class="text-white">Contenidos</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span class="text-white">Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">CONTROL DE CALIDAD EN CONFECCIÓN INDUSTRIAL</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Mantenimiento en máquinas de confección.</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">Describir las piezas y mecanismos que conforman las máquinas y su funcionamiento. Identificar el tipo de puntada de cada máquina según las Normas Internacionales de Estandarización ISO 4915, así mismo los diferentes tipos de costuras bajo la norma ISO 4916. Diagnosticar fallas que afectan la calidad de la costura y establecer la importancia de mantenimientos autónomos y necesidades de capacitación. Seleccionar la solución adecuada según la falla presentada en la costura, de acuerdo con el nivel de problema presentado. Integrar la importancia del plan de mantenimiento en los objetivos de mejora continua de la empresa.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <ul class="bg-color-dark">
+                            <li> <span>290601231–04 - Efectuar actividades de mantenimiento en máquinas de confección según necesidades de la línea de producción.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">Unidad 4. Partes de máquinas de confección, puntadas y costuras</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="tema-1">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Unidad 4. Partes de máquinas de confección, puntadas y costuras</h1>
+                    </div>
+                    <div class="jumbotron bg-white"> <img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img1.jpg" alt="">
+                        <div class="caja-azul">
+                            <p>Los instrumentos más importantes para la confección industrial son las máquinas de coser, conocer sus partes, el mantenimiento y cuidado que requieren permitirá un buen funcionamiento y así mismo una adecuada ejecución de la producción. </p>
+                            <p>Con el estudio de este material usted podrá identificar y describir las piezas que conforman una máquina industrial, así como diagnosticar las fallas que se pueden presentar durante la producción, y su posible solución; de forma que como supervisor planee el tipo y frecuencia de mantenimientos necesarios como instrumento de mejora continua que le permitan cumplir con los objetivos de producción, no solo en términos de tiempo, sino bajo los lineamientos de las normas de estandarización ISO 4915 e ISO 4916.</p>
+                        </div>
+                        <div class="sub-ecored mt-5" id="11">
+                            <h2>1. Partes de la maquinaria de confección</h2>
+                        </div>
+                        <p class="mt-5">En relación con el avance en tecnología, se han desarrollado piezas electromecánicas y electrónicas, lo cual diferencia cada máquina en su funcionamiento, así como en el mantenimiento requerido.</p>
+                        <h2 class="mt-5">1.1. Partes, mecanismos y funciones de las máquinas de confección</h2>
+                        <p class="mt-5">Las partes de las máquinas están compuestas por piezas que junto con otros mecanismos realizan funciones específicas. Es necesario identificar las piezas mecánicas para entender el funcionamiento de los mecanismos y detectar los daños en las máquinas.</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img2.png" alt="">
+                        <p class="mt-3">Las funciones de algunas partes que componen los mecanismos de las máquinas son:</p>
+                        <div class="jumbotron caja-rosa">
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>1</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Árbol:</strong> elemento mecánico que toma y trasfiere movimiento girando sobre sí mismo, en revoluciones completas.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>2</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Barra:</strong> elemento mecánico que toma y transfiere movimiento sin girar, trabaja en sentido rectilíneo; según su forma puede ser, cuadrada, circular, rectangular, entre otras.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>3</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Biela:</strong> elemento mecánico que se utiliza para transmitir movimiento, convirtiendo de circular u oscilante a rectilíneo u oscilante. La biela se compone de cabeza y pie, la cabeza recibe el movimiento, la singularidad de la biela es que ni el pie ni la cabeza giran, su movimiento es oscilante.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>4</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Cigüeñal:</strong> elemento mecánico que toma y transfiere movimiento circular y lo transfiere por el muñón. Por medio del cigüeñal cambia el movimiento circular en oscilante.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>5</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Eje:</strong> elemento mecánico que toma y transfiere movimiento oscilante, sin completar las revoluciones.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>6</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Excéntrica:</strong> elemento mecánico que convierte el movimiento de circular uniforme, en rectilíneo u oscilante, se identifica al tener su centro de giro fuera de su centro geométrico y su superficie de contacto (trabajo), completamente uniforme.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>7</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Leva:</strong> elemento mecánico que sirve para transferir movimiento, cambiar de circular en rectilíneo u oscilante o de oscilante en rectilíneo. Se identifica por tener su superficie de trabajo (contacto), con anormalidades, además puede tener su centro de giro fuera o dentro del centro geométrico.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>8</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Rueda dentada o piñón:</strong> elemento mecánico en forma de rueda dentada, el cual se emplea para transferir movimiento circular mediante otros elementos. El piñón puede ser pequeño y se engrana con un piñón más grande.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>9</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Polea:</strong> rueda plana o acanalada que dependiendo de la función requerida puede ser fijo o móvil hacia un eje o árbol.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number"><span>10</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Volante:</strong> rueda cuyo movimiento puede activarse con las manos para mover un mecanismo, controlar una máquina. Fijado al extremo casi siempre de un árbol para controlar su movimiento.</p>
+                                </div>
+                            </div><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img3.png" alt="">
+                        </div>
+                        <h2 class="mt-5">1.2. Mecanismos de las máquinas de confección industrial.</h2>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-4"><img class="img-fluid" src="assets/images/pages/ilustraciones/img4.svg" alt=""></div>
+                            <div class="col-8">
+                                <p>Son el resultado de la unión y acople de varias piezas y elementos para desarrollar una función, como son el tensor del hilo, el transporte, el formador de lazada. Para generar el movimiento de la máquina se requiere la unión de varios elementos mecánicos como el árbol, excéntrico, eje, polea, piñones, volante, barra, chumacera, chaveta, buje, pernos, pasadores, acoples, entre otros.</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">En la creación de la máquina para generar el movimiento se requería del pedal para accionar el movimiento o detenerla, luego que se diera la energía eléctrica, se dio paso al desarrollo del motor para las máquinas de confección con el fin de industrializar los procesos; dependiendo de su capacidad de producción las máquinas se clasifican en industriales o familiares.</p>
+                        <h3 class="mt-5">1.2.1. Mecanismo sistema tensor. </h3>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-4"><img class="img-fluid" src="assets/images/pages/ilustraciones/img5.jpg" alt=""></div>
+                            <div class="col-8">
+                                <p>Su función es realizar la oposición necesaria al paso del hilo. La presión es ejercida por los discos tensores al hilo, de allí su importancia al realizar la costura para obtener la tensión óptima. El mecanismo lo componen las siguientes piezas: tuerca manual, disco de graduación de tensión, resorte de tensor, dos discos tensores, espárrago, resorte tirahílo, buje soporte del espárrago, abridor del tensor. </p>
+                            </div>
+                        </div>
+                        <h3 class="mt-5">1.2.2. Mecanismo de arrastre. </h3><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img6.png" alt="">
+                        <div class="jumbotron caja-rosa mt-5"><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img7.png" alt="">
+                            <p class="mt-5">Las partes de los pies prensa telas son: vástago, zapatilla, talón, dedos y pasador; dependiendo de la máquina pueden tener resortes y protectores de dedos, además podemos mencionar en el caso de la máquina plana que existen diversos tipos de pie y su utilización depende de la operación a desarrollar; en el caso del pie universal debe ser acorde con el tipo de material que se trabaja. Generalmente el material utilizado en los pies es acero templado.</p>
+                        </div>
+                        <p class="mt-5">Cada pieza o mecanismo de las máquinas puede reemplazarse, pero debe tener cuidado en el mercado, según la disponibilidad puede encontrar piezas originales de la marca de la máquina o encontrar los llamados genéricos que inciden en su precio y calidad en términos de vida útil.</p>
+                        <p>Los mecanismos tomadores de lazada se describen en el manual mecánico y estos son: </p>
+                        <div class="jumbotron bg-white">
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>1</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Gancho rotatorio:</strong> es un elemento mecánico conformado por el cuerpo, desviador de hilo, punta, carril, talón, canastilla, desviador de hilo, punta separadora, guarda aguja y mecha. El desgaste del gancho en muchos casos proviene de su punta, de allí la relevancia al presentar problemas en la costura. Existen varios tipos de ganchos conforme a su posición respecto al árbol, pueden ser transversal, vertical y horizontal.</p>
+                                </div>
+                            </div>
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>2</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>La caja bobina va dentro del gancho rotatorio y la componen varias partes, en la máquina plana son:</strong> cuerpo, palanca del pestillo, resorte del pestillo, muelle de tensión, tornillo retenedor del muelle de tensión, tornillo sujetador de muelle auxiliar, muelle auxiliar. El buen estado de la caja bobina depende del cuidado, por eso se deben evitar golpes, caídas y contacto con sustancias que aumenten su oxidación.</p>
+                                </div>
+                            </div>
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>3</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Corchete:</strong> este elemento es utilizado para producir la puntada de cadeneta a un hilo, siempre da revoluciones completas, si la máquina tiene alimentación, trabaja sólo con la aguja, pero si tiene transporte, necesita de un elemento auxiliar llamado extensor, para compensar la falta del alzador en máquina.</p>
+                                </div>
+                            </div>
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>4</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Extensor:</strong> este elemento mecánico es utilizado la mayoría de las veces como auxiliar de los looper y corchetes, para formar varios tipos de puntadas de diferentes series.</p>
+                                </div>
+                            </div>
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>5</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Looper:</strong> se requiere para formar la puntada en la fileteadora, la recubridora, cerradora de codo, multi agujas, empretinadora, entre otras. Puede variar su posición y cantidad a usar, según el tipo de máquina y puntada. Además del enhebrado se debe revisar el estado de su punta la cual podría producir fallas en la costura.</p>
+                                </div>
+                            </div>
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>6</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p><strong>Recubridor:</strong> elemento mecánico que sin llevar ojo guía para el hilo si lleva hilo, el cual se extiende sobre la tela superior al formar la puntada de cadeneta con recubridor, dicho hilo es sostenido por el hilo de la aguja, cada que el material avance. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="mt-5">1.3. Clasificación de puntadas y costuras. </h2>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-6"><img class="img-fluid" src="assets/images/pages/ilustraciones/img8.svg" alt=""></div>
+                            <div class="col-6">
+                                <p>Se suele confundir el término puntada y costura, pero se debe tener en cuenta la diferencia; se habla de la puntada como el resultado del enlace de los hilos, y la costura consiste en varias puntadas en un material o puede ser para unir dos o más materiales. </p>
+                                <p>Aclarado lo anterior se necesitaron unas normas para concertar a nivel mundial los diferentes tipos de puntadas y costuras, identificando por medio de letras o de números según cada norma, lo cual facilita la comprensión de la ficha técnica de una máquina o de un producto en cualquier parte del mundo.</p>
+                            </div>
+                        </div>
+                        <h3 class="mt-5">1.3.1. Clasificación serie de puntadas ISO 4915 </h3>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-4"><img class="img-fluid" src="assets/images/pages/ilustraciones/img9.svg" alt=""></div>
+                            <div class="col-8">
+                                <p>Esta norma internacional clasifica, designa, describe e ilustra las diversas puntadas que se utilizan en las costuras cosidas a mano y a máquina, lo que facilita su identificación en los diversos tipos de producción general y enfocada a la industria de la moda. Esta norma tiene el equivalente militar que es el Federal Standar 7515-a el cual define los estándares para la fabricación de uniformes militares y el estándar ASTM D6193 que define el estándar para la confección de prendas industriales. </p>
+                                <p>En esta norma las diferentes puntadas se agruparon en series por centena según correspondía a la formación de lazada, y a cada puntada en particular le corresponde un consecutivo.</p>
+                            </div>
+                        </div><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img10.svg" alt="">
+                        <div class="sub-ecored mt-5" id="12">
+                            <h2>2. Mantenimiento máquinas de confección </h2>
+                        </div><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img11.jpg" alt="">
+                        <div class="rosa-top">
+                            <p>La metodología Mantenimiento Productivo Total (TPM), busca en pro del trabajo en equipo, procesos cada vez más automatizados, mediante la articulación y participación en las actividades de mantenimiento, en donde el operario de la maquinaria sea corresponsable del mantenimiento, además de las personas que intervienen en el proceso productivo como supervisores, inspectores de calidad, jefe de planta, con el fin de mejorar la efectividad de todos los equipos y disminuir tiempos muertos relacionados en la operación de las máquinas. </p>
+                            <p>Las metas en el mantenimiento son de cero paros, cero fallas y cero accidentes. La tarea del mantenimiento no es solo corregir la falla sino descubrir anormalidades que no son visibles para que sea total.</p>
+                        </div>
+                        <h2 class="mt-5">2.1. Tipos de mantenimiento. </h2>
+                        <p class="mt-5">Es posible establecer diferentes clasificaciones de acuerdo con la función y etapa que cumpla dentro del proceso productivo: </p>
+                        <h3 class="mt-5">2.2.1. Mantenimiento correctivo</h3>
+                        <p class="mt-3">El mantenimiento correctivo es el que se realiza durante el proceso de producción y a corto plazo, da una solución en el mínimo de tiempo y la máquina sigue trabajando. </p>
+                        <p>Para realizar un adecuado mantenimiento correctivo, se debe diagnosticar la causa del daño, para lo cual se pueden utilizar técnicas como los 5 porqués y el diagrama de causa y efecto, que se estudiará posteriormente y la técnica de SMED una herramienta de mejoramiento continuo que se aplica para el cambio de una máquina, en el montaje de una producción con el fin de reducir el tiempo muerto.</p>
+                        <p>Las causas pueden ser ocasionadas por fallas del equipo, en la preparación y ajuste de la maquinaria, el trabajo en vacío o paros menores, velocidad reducida, defectos en el proceso de confección y pérdidas por arranque.</p>
+                        <p>Las actividades complejas de mantenimiento con cierto grado de dificultad, necesarias para corregir la falla son realizadas por el equipo especializado en mantenimiento. Algunas de las correcciones más comunes son la sincronización de los tiempos en las máquinas, el ajuste de la altura de dientes, el ajuste de la altura de la barra, el cambio de piezas como el gancho rotatorio, loopers, barras de pie prénsatela o aguja y sistema tensor.</p>
+                        <h3 class="mt-5">2.2.2. Mantenimiento preventivo</h3>
+                        <p class="mt-3">De acuerdo con los procesos de mejora continua, el mantenimiento preventivo es anticipado a la presentación de la falla; debe ser realizado con la integración de todo el personal y las áreas, en este proceso gana relevancia la necesidad del mantenimiento autónomo, por consiguiente, es necesario capacitar al personal para lograrlo. En la siguiente tabla se observan los pasos del mantenimiento autónomo. </p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img12.svg" alt="">
+                        <p class="mt-5">La limpieza y la lubricación son actividades básicas que contribuyen a cuidar la vida útil de la maquinaria, por lo cual se debe establecer la programación de la frecuencia en la limpieza de partes específicas como en el mecanismo de dientes, el cambio de aceite y la limpieza de tanques, sobre todo en el caso de máquinas mecánicas.</p>
+                        <p>Para complementar el mantenimiento, es primordial la documentación del proceso para ejercer un control visual en el mantenimiento, algunos formatos como la agenda diaria de inspecciones, la programación de 5S, los tableros control de anormalidades, la ficha de cada máquina y las listas de chequeo son herramientas que facilitan este proceso. </p>
+                        <h2 class="mt-5">2.2. Plan de mantenimiento</h2>
+                        <p class="mt-5">La gestión e implementación organizada del mantenimiento contribuye directamente en la calidad de la producción. Así mismo, reduce los costos de mantenimiento. Se requiere planear el mantenimiento con el fin de garantizar el 100% de la disponibilidad de máquinas, equipos y plantas.</p>
+                        <p>Los objetivos del plan de mantenimiento son:</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img13.svg" alt="">
+                        <p class="mt-5">Para la elaboración del plan de mantenimiento es posible hacer uso del diagrama de Gantt el cual permite identificar el uso de los recursos en cada actividad y su duración, lo que permite al supervisor o administrador visualizar adecuadamente los recursos disponibles para este proceso. El plan comprende la descripción de actividades, responsables, día, hora programada, y fecha en que se debe dar su cumplimiento.</p>
+                        <p>Una vez elaborado el plan de mantenimiento este debe ser registrado y comunicado al personal de la planta, con el fin de mejorar la comunicación y establecer su seguimiento. </p>
+                        <p>Los pasos que comprende el plan de mantenimiento se encuentran especificados a continuación, debe tenerse en cuenta que una vez se cumplen se evalúan y vuelve a iniciar su proceso: </p>
+                        <div class="jumbotron bg-white">
+                            <div class="list mt-5 ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>1</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Establecer prioridades de mantenimiento: identificar las máquinas con más problemas; en donde se gastan más los repuestos.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>2</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Eliminar puntos débiles: localizar partes del proceso que pueden afectar la producción; monitorear posibles mejoras y optimizar piezas de repuestos.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>3</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Estructurar un sistema de información: desarrollar un sistema de información mediante utilización de herramientas TIC. </p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>4</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Implementar el mantenimiento planeado: controlar el proceso de inicio del plan mediante listas de chequeo y establecimiento de estándares o criterios de calidad. </p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>5</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Aumento en la eficiencia del mantenimiento: implementar indicadores de gestión que muestren disminución de tiempo en la reparación de la maquinaria, tiempo de reacción, tiempos de arranque, mejorar inventario de repuestos, entre otros. </p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>6</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Mejorar el mantenimiento planeado: incrementar disponibilidad de máquinas, incremento de ciclo de vida de la maquinaria.</p>
+                                </div>
+                            </div>
+                            <div class="list ml-5">
+                                <div class="list__item">
+                                    <div class="list__item__number color-azul"><span>7</span></div>
+                                </div>
+                                <div class="list__txt">
+                                    <p>Programa de mantenimiento planeado: aplicación de mejorar continua (KAIZEN).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-4"><img class="img-fluid" src="assets/images/pages/ilustraciones/img14.png" alt=""></div>
+                            <div class="col-8">
+                                <p>La selección y usos de las herramientas están directamente relacionadas con el diseño de los mecanismos y piezas de las máquinas y sus características como formas, tamaño y función.</p>
+                                <p>Se pueden agrupar las herramientas en áreas según su utilidad, como se observa a continuación: </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mt-5">
+                            <div class="col-5 sup-1 mx-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img15.svg"></div>
+                            <div class="col-5 sup-2 mx-2"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img16.svg"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-stretch">
+                            <div class="col-5 mx-2 pt-6 px-4 pb-4 text-card-1">
+                                <p class="mt-0">- Tijeras de tela entre 8 “y 10“</p><span>- Tijeras de papel de 8”</span><span><br> - Rodaja para calcar patrones, es una rueda con orillos punzantes que permite el calco del patrón.</span><span><br> - Piqueteadora, corta en los orillos del patrón en cartón cartulina para indicar puntos específicos del molde.</span><span><br> - Pinza abre huecos, utilizada para abrir orificios en forma redonda en los patrones o moldes.</span><span><br> - Juego de reglas, comprenden normalmente: regla larga de 80 Cms, escuadra a 60° de 54 Cms, curva de cadera, curva de tiro, curva de sisa, sismómetro o de gota, curva francesa. También se usan curvígrafos y reglas en T.</span><span><br> - Punzón metálico, para señalar puntos ubicación de pinzas, por ejemplo.</span><span><br> - Pinzas en diferentes tamaños, se usan para prensar el bloque de las capas de tela.</span><span><br> - Pesas, para evitar movimiento del bloque de las capas de tela del tendido.</span><span><br> - Tiqueteadora, usa tiquetes con adhesivo, se va imprimiendo información, luego se fijan en las piezas de las prendas para identificarlas. </span><span><br> - Pulidor, es una tijera ergonómica para cortar los hilos al retirar la pieza una vez se realice la costura</span>
+                            </div>
+                            <div class="col-5 mx-2 pt-6 px-4 pb-4 text-card-1">
+                                <p class="mt-0">- Tijeras de tela entre 8 “y 10“</p><span>- Tijeras de papel de 8”</span><span><br> - Rodaja para calcar patrones, es una rueda con orillos punzantes que permite el calco del patrón.</span><span><br> - Piqueteadora, corta en los orillos del patrón en cartón cartulina para indicar puntos específicos del molde.</span><span><br> - Pinza abre huecos, utilizada para abrir orificios en forma redonda en los patrones o moldes.</span><span><br> - Juego de reglas, comprenden normalmente: regla larga de 80 Cms, escuadra a 60° de 54 Cms, curva de cadera, curva de tiro, curva de sisa, sismómetro o de gota, curva francesa. También se usan curvígrafos y reglas en T.</span><span><br> - Punzón metálico, para señalar puntos ubicación de pinzas, por ejemplo.</span><span><br> - Pinzas en diferentes tamaños, se usan para prensar el bloque de las capas de tela.</span><span><br> - Pesas, para evitar movimiento del bloque de las capas de tela del tendido.</span><span><br> - Tiqueteadora, usa tiquetes con adhesivo, se va imprimiendo información, luego se fijan en las piezas de las prendas para identificarlas. </span><span><br> - Pulidor, es una tijera ergonómica para cortar los hilos al retirar la pieza una vez se realice la costura</span>
+                            </div>
+                        </div>
+                        <section class="mt-5"> </section>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">Control visual:</strong>técnica de comunicación donde la información se transmite por medio de señales en los que se utilice el sentido de la vista, con el fin de controlar algún proceso. También conocido como Andón, en japones traduce lámpara. </p>
+                        <p><strong class="mr-2"><i>KAIZEN</i>:</strong>palabra formada por dos vocablos japoneses, cambio y bueno, significa mejora continua, actividades que se desarrollan con el propósito de perfeccionar cada vez más los procesos en la empresa.</p>
+                        <p> <strong class="mr-2"><i>KANBAN</i>:</strong>en japonés traduce tarjetas visuales. Técnica de comunicación en la que se usan tarjetas para informar sobre las actividades de mantenimiento y en los demás procesos de la empresa. </p>
+                        <p> <strong class="mr-2">Mantenimiento autónomo:</strong>actividades sencillas que requieren de poco entrenamiento y pueden ser desarrolladas por el operario de la máquina, para prevenir la aparición de fallas en las máquinas y equipos.</p>
+                        <p><strong class="mr-2"><i>SMED</i>:</strong>del inglés <i>Single Minute Exchange of Die</i>, es decir, el cambio de una herramienta o equipo, en un solo digito de tiempo. </p>
+                        <p><strong class="mr-2">Tiempos muertos:</strong>lapso en el cual el personal no realiza ninguna operación en producción.</p>
+                        <p> <strong class="mr-2">Tomador de lazada:</strong>elemento mecánico que junto con la aguja se encarga de formar la puntada. Estos elementos son auxiliados algunas veces en la formación de la puntada por otros elementos mecánicos. </p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th class="text-center">Autor, (año del documento o material), Nombre del documento o material.</th>
+                                    <th class="text-center">Tipo de material ( Video, capítulo de libro, articulo, otro) </th>
+                                    <th class="text-center" style="width:150px">Enlace del Recurso o Archivo del documento o material</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>American & Efrird, Inc. (2009) Stich Type Matrix Spanish. </td>
+                                    <td>WEB</td>
+                                    <td> <a href="http://www.amefird.com/wp-content/uploads/2009/10/Stitch-Type-Matrix-Spanish.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Arrieta Posada, J. G. (2007). Interacción y conexiones entre las técnicas 5s, SMED y Poka Yoke en procesos de mejoramiento continua</td>
+                                    <td>PDF</td>
+                                    <td> <a href="media/documentos/Interaccion_conexiones_entre_tecnicas_5S_SMED_POKAYOKE_procesos.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Barretto. (s.f.) Técnicas de indumentaria I -Puntadas y pespuntes. Facultad de arquitectura, diseño y urbanismo. Argentina.</td>
+                                    <td>Web</td>
+                                    <td> <a href="http://cursos.fadu.uba.ar/apuntes/Indumentaria%20I/unidad%20teorica%20n%204/18%20-tecnologia%20del%20sector%20costura%201%20Puntadas%20y%20pespuntes.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Carvajal, F. (2012) Manual Técnico. </td>
+                                    <td>PDF</td>
+                                    <td> <a href="media/documentos/Manual_mecanico.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>CIDEP (2012) Manual de Corte y Confección.</td>
+                                    <td>PDF </td>
+                                    <td> <a href="media/documentos/Manual_Corte_y_Confeccion.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Espin, F. (2013). Técnica SMED Reducción del tiempo preparación. 3Ciencias. </td>
+                                    <td>PDF </td>
+                                    <td> <a href="https://www.3ciencias.com/wp-content/uploads/2013/05/TECNICA-SMED.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>González, A. et al (2015, marzo 11- 13) Importancia del Mantenimiento Autónomo en las Pymes. Academia Journals, Villahermosa, Tabasco, México. </td>
+                                    <td>PDF </td>
+                                    <td> <a href="media/documentos/Importancia_mantenimiento_autonomo_pymes.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>SENA (s.f.) Confecciones industriales. Mantenimiento en la industria de la confección (problemas técnicos y soluciones) </td>
+                                    <td>PDF</td>
+                                    <td> <a href="media/documentos/Confecciones_industriales_Mantenimiento_industria_confección.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>SENA (1982), Las puntadas. </td>
+                                    <td>PDF</td>
+                                    <td> <a href="media/documentos/Las_puntadas.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Descargar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Suescún, H, (2018). Todo lo que necesitas saber de un Looper (Fileteadora) | Pegasus M752 | Profe Suescún | 4K</td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=SzeE12fBwJE" target="_blank"><span class="fa fa-play" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Suescún, H. (2018) Cómo graduar la Altura de Barra de Aguja | Máquina Plana </td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=_LAavWB-YHE&amp;t=45s" target="_blank"><span class="fa fa-play" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Suescún, H. (2018) Cómo Sincronizar (Ajustar) el tiempo del Gancho | Máquina Plana </td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=-8zMCiP34oQ&amp;t=93s" target="_blank"><span class="fa fa-play" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Suescún, H. (2018). Cómo ajustar el Ciclo de Dientes (Excéntrico) | Máquina Plana </td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=GgEl7BeYDIw" target="_blank"><span class="fa fa-play" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Suescún, H. (2019). Especificaciones y Sincronización | Collarín Pegasus W562</td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=zMN6ORS54J8" target="_blank"><span class="fa fa-play" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Suescún, H. (2020). ¿Cómo cambiar y graduar el botón de dial de puntada? </td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=4RkqeVzICOw" target="_blank"><span class="fa fa-play" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Villegas, O., et al (2018, octubre 24 -26). Como el mantenimiento productivo total (TPM) te ayuda a mejorar la productividad. Congreso Internacional de Investigación Academia Journals. Los Mochis, Sinaloa, México.</td>
+                                    <td>PDF</td>
+                                    <td> <a href="media/documentos/Como_el_mantenimiento_productivo_total_(TPM)_ayuda_mejorar_productividad.pdf" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Alfaomega (2009). Mantenimiento, planeación, ejecución y control.<a class="ml-2" href="https://www-alfaomegacloud-com.bdigital.sena.edu.co/reader/mantenimiento-planeacion-ejecucion-y-control?location=2" target="_blank">https://www-alfaomegacloud-com.bdigital.sena.edu.co/reader/mantenimiento-planeacion-ejecucion-y-control?location=2</a></p>
+                        <hr>
+                        <p>American &amp; Efrird, Inc. (2009) Stich Type Matrix Spanish.<a class="ml-2" href="http://www.amefird.com/wp-content/uploads/2009/10/Stitch-Type-Matrix-Spanish.pdf" target="_blank">http://www.amefird.com/wp-content/uploads/2009/10/Stitch-Type-Matrix-Spanish.pdf</a></p>
+                        <hr>
+                        <p>Arrieta Posada, J. G. (2007). Interacción y conexiones entre las técnicas 5s, SMED y Poka Yoke en procesos de mejoramiento continuo. Tecnura, 10(20), 139-148.<a class="ml-2" href="https://doi.org/10.14483/22487638.6255" target="_blank">https://doi.org/10.14483/22487638.6255</a></p>
+                        <hr>
+                        <p>Barretto. (s.f.) Técnicas de indumentaria I -Puntadas y pespuntes. Facultad de arquitectura, diseño y urbanismo. Argentina.<a class="ml-2" href="http://cursos.fadu.uba.ar/apuntes/Indumentaria%20I/unidad%20teorica%20n%204/18%20-tecnologia%20del%20sector%20costura%201%20Puntadas%20y%20pespuntes.pdf" target="_blank">http://cursos.fadu.uba.ar/apuntes/Indumentaria%20I/unidad%20teorica%20n%204/18%20-tecnologia%20del%20sector%20costura%201%20Puntadas%20y%20pespuntes.pdf</a></p>
+                        <hr>
+                        <p>Carvajal, F. (2012) Manual Técnico.<a class="ml-2" target="_blank"></a></p>
+                        <hr>
+                        <p>CIDEP (2012) Manual de Corte y Confección.<a class="ml-2" target="_blank"></a></p>
+                        <hr>
+                        <p>Espin, F. (2013). Técnica SMED Reducción del tiempo preparación. 3Ciencias.<a class="ml-2" href="https://www.3ciencias.com/wp-content/uploads/2013/05/TECNICA-SMED.pdf" target="_blank">https://www.3ciencias.com/wp-content/uploads/2013/05/TECNICA-SMED.pdf</a></p>
+                        <hr>
+                        <p>Rápida Suministros Industriales, (s.f.) Recambios y accesorios<a class="ml-2" href="http://www.rapida.com/otros-guantes-alfileres-pesas.html" target="_blank">http://www.rapida.com/otros-guantes-alfileres-pesas.html</a></p>
+                        <hr>
+                        <p>SENA (1982), Las puntadas.<a class="ml-2" href="https://hdl.handle.net/11404/3998" target="_blank">https://hdl.handle.net/11404/3998</a></p>
+                        <hr>
+                        <p>Villegas, O., et al (2018, octubre 24 -26). Como el mantenimiento productivo total (TPM) te ayuda a mejorar la productividad. Congreso Internacional de Investigación Academia Journals. Los Mochis, Sinaloa, México.<a class="ml-2" target="_blank"></a></p>
+                        <hr>
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-picture-o fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-creative-commons fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">CONTROL DE CALIDAD EN CONFECCIÓN INDUSTRIAL DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzon </strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander </span></p>
+                        <p class="footer-texto mb-2"><strong>Sandra Cecilia Gutiérrez</strong><br /><span class="text-small">Experta temática<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial del Diseño y la Manufactura</span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto mb-2"><strong>Vilma Lucía Perilla Méndez</strong><br /> <span class="text-small">Diseñador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Gestión Empresarial</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Oscar Andrés Fernández Urrego</strong><br /> <span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica – CENIGRAF</span><br><span class="text-small">Regional Bogotá</span></p>
+                        <p class="footer-texto mb-2"><strong>Julieth Paola Vital López</strong><br /> <span class="text-small">Corrección de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital </span></p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto"> <strong>Adriana Rincón Avendaño</strong><br />
+                            <strong>José Jaime Luis Tang Pinzón</strong><br />
+                            <strong>Yazmin Rocio Figueroa Pacheco</strong><br /><span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto"><strong>Brayan Stiven Pinto Diaz</strong><br /> <span class="text-small">Desarrollo front-end<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios </span><br><span class="text-small">Regional Tolima</span></p>
+                        <h4 class="footer-subtitulo-2 mt-5">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"><strong>Brayan Stiven Pinto Diaz</strong><br /> <span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios </span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center mt-5"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>

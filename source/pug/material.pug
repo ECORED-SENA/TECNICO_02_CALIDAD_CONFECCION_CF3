@@ -36,7 +36,9 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Unidad 4. Partes de máquinas de confección, puntadas y costuras', '#tema-1')
+                                    +navTemaItem('text', 'Introducción', 'main.html#page/#tema-1/')
+                                    +navTemaItem('1', 'Partes de la maquinaria de confección', 'main.html#page/#tema-2/')
+                                    +navTemaItem('2', 'Mantenimiento máquinas de confección', 'main.html#page/#tema-3/')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
@@ -44,7 +46,11 @@ html(lang="es")
 
         section#mainContent         
             #tema-1
+                include pages/intro.pug
+            #tema-2
                 include pages/1-tema.pug
+            #tema-3
+                include pages/2-tema.pug
             #glosario
                 include pages/glosario.pug
             #anexos

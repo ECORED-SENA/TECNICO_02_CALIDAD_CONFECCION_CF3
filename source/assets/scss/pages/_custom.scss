@@ -337,60 +337,56 @@ ol.lista > li.mas:before {
     }
     }
     }
-    .img-a {
-        display: block;
-        margin: auto;
-      }
-    .caja-azul{
-        background: rgb(149,222,224);
-        background: linear-gradient(0deg, rgba(149,222,224,1) 4%, rgba(184,239,241,1) 40%, rgba(250,250,250,1) 93%);
-        border-radius: 0px 0px 15px 15px;
-        p{
-            padding: 8px;
-        }
+.img-a {
+    display: block;
+    margin: auto;
     }
-    .caja-rosa{
-        background: rgb(246,245,242);
-        background: radial-gradient(circle, rgba(246,245,242,1) 37%, rgba(244,233,212,1) 93%);
-        p, h3{
-           padding: 5px;
-           margin: 5px;
-        }
+.caja-azul{
+    background: linear-gradient(0deg, rgba(149,222,224,1) 4%, rgba(184,239,241,1) 40%, rgba(250,250,250,1) 93%);
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+    
+}
+.caja-rosa{
+    background: rgb(246,245,242);
+    background: radial-gradient(circle, rgba(246,245,242,1) 37%, rgba(244,233,212,1) 93%);
+    p, h3{
+        padding: 5px;
+        margin: 5px;
     }
-    .color-azul{
-        span{
-            color: #15579F !important; 
-        }
+}
+.color-azul{
+    span{
+        color: #15579F !important; 
     }
-    .rosa-top{
-        background: rgb(246,245,242);
-        background: radial-gradient(circle, rgba(246,245,242,1) 37%, rgba(244,233,212,1) 93%);
-        position: relative;
-        margin-top: -190px !important;
-        margin-left: 100px !important;
-        margin-right: 100px !important;
-        border-radius: 10px;
-        p{
-            padding: 5px;
-            margin: 5px;   
-        }
+}
+.rosa-top{
+    background: rgb(246,245,242);
+    background: radial-gradient(circle, rgba(246,245,242,1) 37%, rgba(244,233,212,1) 93%);
+    position: relative;
+    margin-top: -190px !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    border-radius: 10px;
+    p{
+        padding: 5px;
+        margin: 5px;   
     }
-    .text-card-1{
-        background: rgb(246,245,242);
-        background: radial-gradient(circle, rgba(246,245,242,1) 37%, rgba(244,233,212,1) 93%);
-        border-radius: 15px;
-        p{
-            padding-top: 80px !important;
-            
-        }
-      }
-      .sup-1{
-        z-index: 2;
-        margin-bottom: -210px;  
-      }
-      .sup-2{
-        z-index: 2;
-        margin-bottom: -150px;  
-      }
-  
-
+}
+.text-card-1{
+    background: rgb(246,245,242);
+    background: radial-gradient(circle, rgba(246,245,242,1) 37%, rgba(244,233,212,1) 93%);
+    border-radius: 15px;
+    p{
+        padding-top: 80px !important;
+        
+    }
+    }
+    .sup-1{
+    z-index: 2;
+    margin-bottom: -210px;  
+    }
+    .sup-2{
+    z-index: 2;
+    margin-bottom: -150px;  
+    }
